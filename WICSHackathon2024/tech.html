@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestions Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class = "contact-left">
+            <div class="contact-left-title">
+                <h2>Share your Story</h2>
+                <h3>How do you groove?</h3>
+                <hr>
+            </div>
+            <input type="hidden" name="apikey" value="bfb7772d-a27a-434d-a6e6-ab11cd086a2a">
+            <input type="text" name = 'name' placeholder = "Your Name" class = "contact-inputs" required>
+            <input type="email" name = 'email' placeholder = "Your Email" class = "contact-inputs" required>
+            <input type="country" name = 'country' placeholder = "Your Country" class = "contact-inputs" required>
+            <textarea name="message1" placeholder="What is the name dance/music you are sharing?" class = "contactinputs" required></textarea>
+            <textarea name="message2" placeholder="Please describe the dance/music" class = "contactinputs" required></textarea>
+            <textarea name="message3" placeholder="Share any videos of this art!" class = "contactinputs" ></textarea>
+            <button type = "submit">Submit</button>
+            <li class = 'home__btn'>
+                <a href="http://127.0.0.1:5500/index.html" class = "button2">Go back to the homepage!</a>
+            </li>
+        </form>
+        <div class="contact-right">
+
+        </div>
+        
+    </div>
+</body>
+</html>
